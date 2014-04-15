@@ -1,0 +1,9 @@
+/* Put your CSS here */
+html, body {
+    margin: 20px;
+    background: #ccc;
+}
+
+@keyframes domChanged { from { background: green; } }
+@-webkit-keyframes domChanged { from { background: green; } }
+.ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; }
