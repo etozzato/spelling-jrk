@@ -1,5 +1,5 @@
 {
-  "name": "broccoli-sample-app",
+  "name": "broccoli-ember-jrk-sample-app",
   "dependencies": {
     "handlebars": "~1.1.2",
     "jquery": "~1.9.1",

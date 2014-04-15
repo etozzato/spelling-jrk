@@ -1,13 +1,14 @@
 {
-  "name": "broccoli-sample-app",
-  "description": "Sample app for Broccoli",
+  "name": "broccoli-ember-jrk-sample-app",
+  "description": "Sample app for Broccoli/Ember/Component - ",
   "version": "0.0.0",
   "private": true,
-  "author": "Jo Liss <joliss42@gmail.com>",
+  "author": "Emanuele Tozzato <etozzato@gmail.com>",
+  "original author": "Jo Liss <joliss42@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joliss/broccoli-sample-app"
+    "url": "https://github.com/etozzato/spelling-jrk"
   },
   "scripts": {
     "postinstall": "node_modules/.bin/bower install"
