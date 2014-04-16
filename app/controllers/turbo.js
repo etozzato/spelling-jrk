@@ -12,7 +12,7 @@ export default Ember.Controller.extend({
     value = $.map(tokens, function(el) {
       var items;
       items = dictionary[el];
-      return "" + el.toUpperCase() + ": " + items[Math.floor(Math.random() * items.length)];
+      return "" + el.toUpperCase() + " as in " + items[Math.floor(Math.random() * items.length)];
     });
     return value;
   }.property('word')

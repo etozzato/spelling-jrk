@@ -14,7 +14,7 @@ export default Ember.Controller.extend({
       items = dictionary[el];
       if (typeof(items) == 'undefined')
         return "" + el.toUpperCase() + ": I am not familiar..."
-      return "" + el.toUpperCase() + ": " + items[Math.floor(Math.random() * items.length)];
+      return "" + el.toUpperCase() + " as in " + items[Math.floor(Math.random() * items.length)];
     });
     return value;
   }.property('word')
