@@ -1,7 +1,11 @@
 export default Ember.Component.extend({
-  // classNames: ['pretty-color'],
-  // attributeBindings: ['style'],
-  // style: function(){
-  //   return 'color: ' + this.get('name') + ';';
-  // }.property('name')
+
+  // didInsertElement: function(el){
+  //   var that = this;
+  //   $(el).change(function(){
+  //     console.log('A')
+  //     that.sendAction();
+  //   })
+  // }
+
 });

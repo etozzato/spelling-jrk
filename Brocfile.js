@@ -22,7 +22,7 @@ function preprocess (tree) {
 var app = 'app'
 app = pickFiles(app, {
   srcDir: '/',
-  destDir: 'appkit' // move under appkit namespace
+  destDir: 'appkit'
 })
 app = preprocess(app)
 
@@ -73,8 +73,6 @@ var appCss = compileSass(sourceTrees, 'appkit/app.scss', 'assets/app.css')
 
 if (env === 'production') {
   appJs = uglifyJavaScript(appJs, {
-    // mangle: false,
-    // compress: false
   })
 }
 

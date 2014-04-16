@@ -1,10 +1,11 @@
 body{
   background: #ccc;
+  background: lime;
   font-family:'Comic Sans MS';
 }
 
 a{
-  font-size:1.5em;
+  font-size:1.7em;
 }
 
 .contenuto-centrale{
@@ -23,4 +24,8 @@ input{
   border : 0px;
   background: #ccc;
   color: #fff;
+}
+
+li{
+  font-size: 1.5em;
 }
