@@ -23,4 +23,4 @@ This is what you get:
 
 ![this is the app](https://raw.githubusercontent.com/etozzato/spelling-jrk/master/public/ss.png)
 
-![DEMO](http://etozzato.github.io/spelling-jrk/#/turbo)
+[APP DEMO](http://etozzato.github.io/spelling-jrk/#/turbo)
